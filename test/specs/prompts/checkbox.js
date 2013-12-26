@@ -123,14 +123,4 @@ describe("`checkbox` prompt", function() {
     this.rl.emit("line");
   });
 
-  it("should allow to write", function( done) {
-
-    this.checkbox.run(function(answer){
-
-    });
-
-    this.rl.emit("keypress", "a");
-    this.rl.emit("line");
-  });
-
 });
